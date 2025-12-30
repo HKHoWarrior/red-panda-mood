@@ -69,6 +69,31 @@ h1 {
   gap: 16px;
 }
 
+.panda-image {
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto;
+  border-radius: 18px;
+  object-fit: cover;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+  background: #f1f1f1;
+}
+
+.panda-image.animate {
+  animation: pandaFadeZoom 500ms ease;
+}
+
+@keyframes pandaFadeZoom {
+  0% {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 button {
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
   color: #fff;

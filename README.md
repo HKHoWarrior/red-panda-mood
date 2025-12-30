@@ -15,3 +15,5 @@ A tiny static site that serves up random, feel-good moods from a red panda frien
 4. Save and wait for the deployment URL to be generated.
 
 Once deployed, share the GitHub Pages URL so everyone can click the Red Panda Mood Button! 
+
+Photo credits: Wikimedia Commons.
